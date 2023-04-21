@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  /* justify-content: space-between; */
+}
+header::before {
+  background: url(../assets/project.png) no-repeat center center/cover;
+
+  content: "";
+  /* z-index: -1; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* opacity: 0.8; */
+  z-index: -1;
+  filter: brightness(79%);
+}
+header {
+  padding: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+li {
+  display: flex;
+  color: rgb(255, 255, 57);
+  font-size: 20pxpx;
+  margin-top: 10px;
+  font-weight: 600;
+}
+nav img {
+  width: 100px;
+  height: 38px;
+  display: flex;
+}
+.btn-2 {
+  border: none;
+  background-color: rgb(255, 124, 124);
+  padding: 0 35px;
+}
+section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  flex-direction: column;
+}
+.btn {
+  display: flex;
+  background-color: rgb(255, 85, 85);
+  padding: 15px 25px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+h2 {
+  font-size: 6.3rem;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 255, 57);
+}
+
+footer div img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
